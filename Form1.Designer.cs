@@ -28,10 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            SuspendLayout();
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 14F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Window;
+            ClientSize = new Size(464, 321);
+            Font = new Font("Unispace", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "CADENAS";
+            ResumeLayout(false);
         }
 
         #endregion
