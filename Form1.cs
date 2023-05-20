@@ -11,7 +11,7 @@ namespace Ejercicio5
 
          public void ValidarCadena (string cadena)
         {
-           if(cadena.Length() != LoguitudCadena)
+           if(cadena.Length() != )
         }
 
     }
